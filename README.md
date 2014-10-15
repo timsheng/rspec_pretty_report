@@ -9,6 +9,7 @@ support rspec version 2.14
 
 ```
 gem install rspec_pretty_report -v 0.0.1
+gem install rouge
 ```
 
 ## How to Use it
