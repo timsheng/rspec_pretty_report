@@ -21,7 +21,7 @@ add the following code to .rspec file
 
 excute 'rspec' in command line.
 
-or you can excute rspec -f RspecHtmlFormatter  in command line without edit .rspec file
+or you can excute rspec -f RspecPrettyReport  in command line without edit .rspec file
 
 
 If you want to provide some generated documentation for the tests you can put comments in the rspec tests like this:
