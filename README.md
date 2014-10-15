@@ -16,7 +16,7 @@ gem install rspec_pretty_report -v 0.0.1
 edit .rspec file
 add the following code to .rspec file
 ```
---format RspecHtmlFormatter 
+--format RspecPrettyReport
 ```
 
 excute 'rspec' in command line.
