@@ -1,0 +1,6 @@
+0.0.2
+fix example initialize failed bug
+0.0.1
+first initialized
+a new pretty html report support for 2.14.1 rspec
+
