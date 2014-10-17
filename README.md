@@ -8,6 +8,7 @@ support rspec version 2.14
 ## Install
 
 ```
+gem install activesupport -v 4.1.4
 gem install rspec_pretty_report -v 0.0.1
 gem install rouge
 ```
