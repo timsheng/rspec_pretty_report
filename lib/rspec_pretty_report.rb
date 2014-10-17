@@ -165,7 +165,11 @@ class RspecPrettyReport < RSpec::Core::Formatters::BaseFormatter
 
   def example_failed(example)
     @group_example_failure_count += 1
+    begin
     @group_examples << Example.new(example)
+	rescue RuntimeError
+		puts "example initialize failed"
+	end
   end
 
   def example_pending(example)
